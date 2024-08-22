@@ -1,0 +1,16 @@
+def digit_words(input_string):
+
+    my_list = []
+    words = sentence.split()
+    for word in words:
+        if word.isdigit():
+            my_list.append(word)
+
+    new_sentence = ' '.join(my_list)
+    print(new_sentence)
+
+
+
+if __name__ == '__main__':
+    sentence = input("Enter a sentence: ")
+    digit_words(sentence)
